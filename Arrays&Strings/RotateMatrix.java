@@ -8,7 +8,6 @@ public class RotateMatrix {
 
 		// I will write the solution for rotating this image 90 degrees clockwise
 		rotateImage(image);
-
 	}
 
 	private static void rotateImage(int[][] a) {

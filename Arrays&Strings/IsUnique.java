@@ -54,6 +54,7 @@ public class IsUnique {
 		} else {
 			System.out.println(str + ": String is not Unique.");
 		}
+		
 	}
 
 }

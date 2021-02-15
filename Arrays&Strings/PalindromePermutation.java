@@ -18,6 +18,7 @@ public class PalindromePermutation {
 		}
 	}
 
+	
 	public static void palindromePermutation(String a) {
 		a = a.toLowerCase();
 		HashMap<Character, Integer> hm1 = new HashMap<>();

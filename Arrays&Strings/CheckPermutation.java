@@ -66,6 +66,7 @@ public class CheckPermutation {
 			} else {
 				hm2.put(b.charAt(i), 1);
 			}
+			
 		}
 
 		if (hm1.equals(hm2)) {

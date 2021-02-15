@@ -49,7 +49,6 @@ public class StringCompression {
 					+ " -> length = " + res.length());
 		} else {
 			System.out.println(s + ": the compressed string is " + res);
-
 		}
 
 	}

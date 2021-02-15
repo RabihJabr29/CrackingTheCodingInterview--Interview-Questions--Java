@@ -19,11 +19,12 @@ public class URLify {
 		// each space occurence 2 additional characters in the array. then we populate the array
 		
 		int spacesCount = 0;
+		
 		for (int i = 0; i < trueLength; i++) {
 			if (s.charAt(i) == ' ')
 				spacesCount++;
 		}
-
+		
 		int newArrayLength = trueLength + spacesCount * 2;
 		char c[] = new char[newArrayLength];
 		int i = 0, j = 0;
