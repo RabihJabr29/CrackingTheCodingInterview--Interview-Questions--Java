@@ -7,7 +7,7 @@ public class RemoveDups {
 //	Write code to remove duplicates from an unsorted linked list.
 //	FOLLOW UP
 //	How would you solve this problem if a temporary buffer is not allowed?
-
+	
 	public static void main(String[] args) {
 		LinkedList<Integer> l = new LinkedList<>();
 		for (int i = 0; i < 20; i++) {
@@ -31,11 +31,11 @@ public class RemoveDups {
 	}
 
 	private static void removeDups(LinkedList<Integer> l) {
-
 		HashSet<Integer> hs = new HashSet<>();
 
 		ListIterator<Integer> iter = l.listIterator();
 		iter = l.listIterator();
+
 		while (iter.hasNext()) {
 			int x = iter.next();
 			if (hs.contains(x)) {
@@ -44,12 +44,10 @@ public class RemoveDups {
 				hs.add(x);
 			}
 		}
+
 		iter = l.listIterator();
 		while (iter.hasNext()) {
 			System.out.print(iter.next() + " ");
 		}
 	}
-
-	
-
 }
