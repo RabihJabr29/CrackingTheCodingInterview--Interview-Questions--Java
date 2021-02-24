@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Arrays&amp;Strings"/>
 	<classpathentry kind="src" path="LinkedLists"/>
+	<classpathentry kind="src" path="Trees&amp;Graphs"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
