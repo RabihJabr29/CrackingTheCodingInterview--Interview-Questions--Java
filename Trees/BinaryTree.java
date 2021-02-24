@@ -2,6 +2,7 @@
 public class BinaryTree {
 
 	public BinaryNode root;
+	private int size;
 
 	public BinaryTree(int data) {
 		this.root = new BinaryNode(data);
@@ -20,7 +21,6 @@ public class BinaryTree {
 		preOrderTraversal(cur);
 		System.out.println("\n");
 
-		
 	}
 
 	public void postOrderTraversal() {
@@ -53,7 +53,20 @@ public class BinaryTree {
 			System.out.print(node.data + " ");
 		}
 	}
-	
+
+	public int size() {
+		BinaryNode node = root;
+		size(node);
+		return this.size;
+	}
+
+	private void size(BinaryNode node) {
+		if (node != null) {
+			size++;
+			size(node.left);
+			size(node.right);
+		}
+	}
 
 }
 
