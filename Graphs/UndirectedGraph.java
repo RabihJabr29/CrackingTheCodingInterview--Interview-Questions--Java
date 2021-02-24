@@ -32,21 +32,22 @@ public class UndirectedGraph {
 		int src = 0;
 		
 		// you can use this assuming that the graph is a connected graph.
-		printRecursiveDFS(src, visited);
+//		printRecursiveDFS(src, visited);
 
 		// if the graph is not a connected graph you can run the below code.
 		// just remove the //s
 
-//		int count = 0;
-//		for (int i = 0; i < n; i++) {
-//			if (visited [i] == 0) {
-//				System.out.print("Subgraph #" + count + ": ");
-//				count++;
-//				printRecursiveDFS(i, visited );
-//				System.out.println();
-//			}
-//		}
+		int count = 0;
+		for (int i = 0; i < n; i++) {
+			if (visited [i] == 0) {
+				System.out.print("Subgraph #" + count + ": ");
+				count++;
+				printRecursiveDFS(i, visited );
+				System.out.println();
+			}
+		}
 
+		System.out.println();
 	}
 
 	private void printRecursiveDFS(int src, int[] visited ) {
@@ -85,10 +86,8 @@ public class UndirectedGraph {
 					}
 				}
 				System.out.println();
-
 			}
 		}
-
+		System.out.println();
 	}
-
 }

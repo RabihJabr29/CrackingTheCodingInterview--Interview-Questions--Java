@@ -11,7 +11,7 @@ public class UndirectedGraphDriver {
 		// remove this comment in order for the graph to be a connected graph.
 //		graph.addEdge(2, 4);
 		
-//		graph.printRecursiveDFS();
+		graph.printRecursiveDFS();
 		
 		graph.printBFS();
 	}
