@@ -53,6 +53,7 @@ public class BinaryTree {
 			System.out.print(node.data + " ");
 		}
 	}
+	
 
 }
 
