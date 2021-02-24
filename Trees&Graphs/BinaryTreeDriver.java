@@ -2,7 +2,6 @@
 public class BinaryTreeDriver {
 
 	public static void main(String[] args) {
-	
 		// Before you run this program try to draw this tree as it was created.
 		// Feel free to create and try other trees.
 		

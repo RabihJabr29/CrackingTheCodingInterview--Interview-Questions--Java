@@ -20,6 +20,7 @@ public class BinaryTree {
 		preOrderTraversal(cur);
 		System.out.println("\n");
 
+		
 	}
 
 	public void postOrderTraversal() {
